@@ -1,4 +1,4 @@
-import { Button, Container, Grid } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 import { useEffect, useState } from "react";
 import db from "../firebase";
 import "../App.scss";
@@ -29,25 +29,3 @@ function All() {
 }
 export default All;
 
-
-/*<a href="!#">Learn more.</a>
- 
- 
- 
- 
- 
- 
- 
-<div className="App_posts">
-
-<Container >
-
-{events.map(({ id, data }) => (
-  <MediumPosts key={id} id={id} data={data} />
-  
-))}
-</Container>
-
- 
- 
-*/

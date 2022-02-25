@@ -1,4 +1,4 @@
-import { Button, Container, Grid } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 import { useEffect, useState } from "react";
 import db from "../firebase";
 import "../App.scss";

@@ -3,7 +3,6 @@ import "./App.scss";
 import NavBar from "./components/navbar/NavBar";
 import PostBody from "./PostBody";
 import LoginHome from "./admin/LoginHome";
-import { useState, useEffect } from 'react';
 import Demo from './pages/demo'
 
 

@@ -26,9 +26,9 @@ const NavBar = () => {
                         <NavLink className={styles.nav__item} to="/">
                           اعرف عنا
                         </NavLink>
-                        <a className={styles.nav__item} to="/">
+                        <NavLink className={styles.nav__item} to="/">
                             تواصل معنا 
-                        </a>
+                        </NavLink>
                   
                     </nav>
                 </div>
@@ -45,9 +45,7 @@ const NavBar = () => {
     );
 };
 
-const Button = () => {
-    return <button className={styles.button}>Click me</button>;
-};
+
 
 export default NavBar;
 

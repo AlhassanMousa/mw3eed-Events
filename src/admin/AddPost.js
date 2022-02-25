@@ -1,17 +1,12 @@
-import { Button, Container, Grid } from "@material-ui/core";
-import React, { useEffect, useState , forwardRef } from "react";
+import { Button, Container } from "@material-ui/core";
+import React, {  useState } from "react";
 import db from "../firebase";
 import "../App.scss";
-
-import {auth} from '../firebase';
 import 'firebase/auth';
 import 'firebase/firestore';
 import firebase from 'firebase';
 
 import DatePicker from 'react-datepicker'
-import addDays from 'date-fns/addDays'  
-
-import { TextareaAutosize } from "@material-ui/core";
 import "react-datepicker/dist/react-datepicker.css";  
 
 
@@ -66,14 +61,7 @@ const submit = (e) => {
 
             <div className="Form_InputDivs">
               <p>الفئة</p>
-           { /*  <input
-                value={value.cat}
-                type="text"
-                placeholder="الفئة"
-                name="cat"
-                onChange={changeValue}
-              />
-         */  }
+    
 
 <select    value={value.cat}
                 type="text"
